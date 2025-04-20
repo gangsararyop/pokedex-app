@@ -28,7 +28,7 @@ const PokemonCard: FC<PokemonCardProps> = ({ index, pokemon }) => {
             "--card-anime-delay": `${Math.floor((index % 10) / 2) * 300}ms`,
           } as CSSProperties
         }
-        className={`relative overflow-hidden w-full h-full max-w-[156px] rounded-xl ${typeColor} shadow-md animate-fade-up [animation-delay:var(--card-anime-delay)]`}
+        className={`relative overflow-hidden w-full h-full max-w-[156px] rounded-xl ${typeColor} shadow-md animate-fade-up [animation-delay:var(--card-anime-delay)] mx-auto`}
       >
         <div className="px-3 py-2 relative z-10">
           {/* ----- Number ----- */}

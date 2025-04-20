@@ -69,7 +69,7 @@ const Homepage = () => {
   });
 
   return (
-    <div className="relative w-full h-screen max-w-[360px] mx-auto bg-white px-6">
+    <div className="relative w-full h-screen max-w-[480px] mx-auto bg-white px-6">
       <div className="relative z-10 pt-10 pb-4">
         <div className="flex row items-center justify-between mb-8">
           <BackArrow />

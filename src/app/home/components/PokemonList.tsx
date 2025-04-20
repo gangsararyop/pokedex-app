@@ -10,7 +10,7 @@ interface PokemonListProps {
 
 const PokemonList: FC<PokemonListProps> = ({ pokemons }) => {
   return (
-    <div className="grid grid-cols-2 gap-4 mb-4 ">
+    <div className="grid grid-cols-2 min-[480px]:grid-cols-3 gap-4 mb-4">
       {pokemons.map((pokemon, index) => (
         <PokemonCard key={pokemon.name} index={index} pokemon={pokemon} />
       ))}

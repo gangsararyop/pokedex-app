@@ -20,7 +20,7 @@ const PokemonDetailImage: FC<PokemonDetailImageProps> = ({
     >
       {image && (
         <div className="relative w-[220px] h-[220px] ml-auto">
-          <Image alt={name} src={image} fill />
+          <Image alt={name} src={image} fill style={{ objectFit: "contain" }} />
         </div>
       )}
     </div>

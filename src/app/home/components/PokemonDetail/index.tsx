@@ -49,7 +49,7 @@ const PokemonDetail: FC<PokemonDetailProps> = ({
         <>{children}</>
       </DrawerTrigger>
 
-      <DrawerOverlay className={`${typeColor} w-full max-w-[360px] mx-auto`}>
+      <DrawerOverlay className={`${typeColor} w-full max-w-[480px] mx-auto`}>
         <PokemonDetailHeader
           name={name}
           types={types}
@@ -58,7 +58,7 @@ const PokemonDetail: FC<PokemonDetailProps> = ({
         />
       </DrawerOverlay>
 
-      <DrawerContent className="w-full h-auto max-w-[360px] mx-auto bg-white top-[250px] rounded-t-4xl">
+      <DrawerContent className="w-full h-auto max-w-[480px] mx-auto bg-white top-[250px] rounded-t-4xl">
         <div className="w-full h-full">
           <div className="w-full h-full overflow-hidden relative z-10">
             <Tabs
